@@ -15,4 +15,4 @@ print("Ask yes or no question.")
 input(">")
 
 
-print(messages[random.randint(0, len(messages))])
+print(messages[random.randint(0, len(messages) -1)])
